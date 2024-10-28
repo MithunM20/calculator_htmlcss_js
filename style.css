@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: red;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+}
+
+.container{
+    width: 500px;
+    height: 630px ;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#screen{
+    background-color: rgb(172, 200, 202);
+    height: 80px;
+    width: 485px;
+    margin: 5px;
+    font-size: 4rem;
+    text-align: right;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.button{
+    background-color: rgb(63, 61, 61);
+    color: white;
+    width: 92px;
+    height: 70px;
+    font-size: 2.5rem;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.clear{
+    background-color: red;
+}
+
+.operator{
+    background-color: rgb(132, 132, 130);
+}
+
+.button:hover{
+    border: 5px solid rgb(238, 35, 35);
+}
+
+.allclear{
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 70px;
+    margin-top: 2px;
+    border-radius: 20px;
+    font-size: 2.5rem;
+}
+
+.result{
+    background-color: green;
+    width: 200px;
+    margin: 2px;
+
+}
+
+
+.result-row {
+    text-align: center; 
+}
+
+
+/* Tablet and below */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .header, .footer {
+        text-align: center;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
